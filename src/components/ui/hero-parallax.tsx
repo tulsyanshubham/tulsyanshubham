@@ -140,7 +140,7 @@ export const HeroParallax = ({
                     </DrawerTrigger>
                     <DrawerContent className="pb-5">
                         <DrawerHeader>
-                            <DrawerTitle className="text-center text-2xl sm:text-4xl">My Bagpack</DrawerTitle>
+                            <DrawerTitle className="text-center text-2xl sm:text-4xl">My Backpack</DrawerTitle>
                             <DrawerDescription className="text-sm text-center sm:text-base">Here&apos;s what I have learnt so far</DrawerDescription>
                         </DrawerHeader>
                         <div className="flex flex-wrap items-center justify-center">
