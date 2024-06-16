@@ -48,24 +48,6 @@ export const HeroParallax = ({
 
     const springConfig = { stiffness: 300, damping: 30, bounce: 100 };
 
-    const translateX = innerWidth > 700 ?
-        useSpring(
-            useTransform(scrollYProgress, [0, 1], [-50, 300]),
-            springConfig
-        ) :
-        useSpring(
-            useTransform(scrollYProgress, [0, 1], [0, 300]),
-            springConfig
-        );
-    const translateXReverse = innerWidth > 700 ?
-        useSpring(
-            useTransform(scrollYProgress, [0, 1], [50, -300]),
-            springConfig
-        ) :
-        useSpring(
-            useTransform(scrollYProgress, [0, 1], [0, -300]),
-            springConfig
-        );
     const rotateX = useSpring(
         useTransform(scrollYProgress, [0, 0.2], [15, 0]),
         springConfig
@@ -78,15 +60,22 @@ export const HeroParallax = ({
         useTransform(scrollYProgress, [0, 0.2], [20, 0]),
         springConfig
     );
-    const translateY = innerWidth > 700 ?
-        useSpring(
-            useTransform(scrollYProgress, [0, 0.2], [-750, 200]),
-            springConfig
-        ) :
-        useSpring(
-            useTransform(scrollYProgress, [0, 0.2], [-550, 0]),
-            springConfig
-        );
+
+    if (innerWidth > 700) {
+        var tx = [-50, 300];
+        var txr = [50, -300];
+        var ty = [-750, 200];
+    }
+    else {
+        var tx = [0, 300];
+        var txr = [0, -300];
+        var ty = [-550, 0];
+    }
+
+    const translateX = useSpring(useTransform(scrollYProgress, [0, 1], tx), springConfig);
+    const translateXReverse = useSpring(useTransform(scrollYProgress, [0, 1], txr), springConfig);
+    const translateY = useSpring(useTransform(scrollYProgress, [0, 0.2], ty), springConfig);
+
     return (
         <div
             ref={ref}
@@ -152,7 +141,7 @@ export const HeroParallax = ({
                     <DrawerContent className="pb-5">
                         <DrawerHeader>
                             <DrawerTitle className="text-center text-2xl sm:text-4xl">My Bagpack</DrawerTitle>
-                            <DrawerDescription className="text-sm text-center sm:text-base">Here's what I have learnt so far</DrawerDescription>
+                            <DrawerDescription className="text-sm text-center sm:text-base">Here&apos;s what I have learnt so far</DrawerDescription>
                         </DrawerHeader>
                         <div className="flex flex-wrap items-center justify-center">
                             {Tech.map((tech) => (
@@ -207,7 +196,7 @@ export const Header = () => {
                 ))}
             </div>
             <h2 className="text-xl md:text-3xl text-teal-600 font-semibold tracking-wide uppercase text-center mt-10 z-10">
-                Here's what I have learned so far
+                Here&apos;s what I have learned so far
             </h2>
         </div>
     );
