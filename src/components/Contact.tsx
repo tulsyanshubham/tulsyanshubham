@@ -82,7 +82,7 @@ export function Contact() {
                         </LabelInputContainer>
                         <LabelInputContainer className="mb-4">
                             <Label htmlFor="mesage">Message</Label>
-                            <Textarea id="mesage" value={formData.msg} onChange={handleChange} name="msg" placeholder="Hello, how are you" />
+                            <Textarea id="mesage" value={formData.msg} onChange={handleChange} name="msg" placeholder="Let me know how everything looks" />
                         </LabelInputContainer>
 
                         <button disabled={!isSending && !(formData.fname && formData.lname && formData.email && formData.msg)}
