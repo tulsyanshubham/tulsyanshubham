@@ -79,7 +79,7 @@ const config = {
     },
   },
   plugins: [require("tailwindcss-animate"), addVariablesForColors,
-    addSvgPatterns,],
+    addSvgPatterns,removeScrollBar],
 } satisfies Config
 
 function addVariablesForColors({ addBase, theme }: any) {
@@ -116,5 +116,19 @@ function addSvgPatterns({ matchUtilities, theme }: any) {
   );
 }
 
+function removeScrollBar({ addUtilities }: any) {
+  addUtilities({
+    '.scrollbar-hide': {
+      /* Firefox */
+      'scrollbar-width': 'none',
+      /* IE */
+      '-ms-overflow-style': 'none',
+      /* Webkit */
+      '&::-webkit-scrollbar': {
+        display: 'none',
+      },
+    },
+  });
+}
 
 export default config

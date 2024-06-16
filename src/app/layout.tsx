@@ -22,7 +22,7 @@ export default function RootLayout({
   // const [darkmode, setDarkmode] = useState(false);
 
   return (
-    <html lang="en" className="scroll-smooth dark">
+    <html lang="en" className="scroll-smooth dark scrollbar-hide">
       <body className={inter.className}>
         <FloatingNav navItems={Navicons} />
         {children}
