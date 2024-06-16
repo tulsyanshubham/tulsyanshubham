@@ -44,6 +44,9 @@
   <a href="https://www.linkedin.com/in/shubham-tulsyan-a5750a288/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white" height="35" alt="linkedin"  />
   </a>
+  <a href="https://shubham-tulsyan.vercel.app/" target="_blank">
+    <img src="https://img.shields.io/badge/Portfolio-%23000000.svg?logo=website&logoColor=white" height="35" alt="Portfolio"  />
+  </a>
 </div>
 
 ###
