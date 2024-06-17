@@ -39,6 +39,7 @@ export const HeroParallax = ({
     });
     const [innerWidth, setInnerWidth] = useState(0);
     useEffect(() => {
+        console.log(window.innerWidth)
         setInnerWidth(window.innerWidth);
     }, []);
     const firstRow = innerWidth > 700 ? products.slice(0, 5) : products.slice(0, 4);
@@ -61,10 +62,25 @@ export const HeroParallax = ({
         springConfig
     );
 
-    if (innerWidth > 700) {
+    if (innerWidth > 1280) {
         var tx = [-50, 300];
         var txr = [50, -300];
-        var ty = [-750, 200];
+        var ty = [-750, 75];
+    }
+    else if (innerWidth > 1024) {
+        var tx = [-50, 300];
+        var txr = [50, -300];
+        var ty = [-650, 60];
+    }
+    else if (innerWidth > 768) {
+        var tx = [-50, 300];
+        var txr = [50, -300];
+        var ty = [-650, 60];
+    }
+    else if (innerWidth > 640) {
+        var tx = [-0, 250];
+        var txr = [0, -250];
+        var ty = [-580, -10];
     }
     else {
         var tx = [0, 300];
@@ -79,7 +95,7 @@ export const HeroParallax = ({
     return (
         <div
             ref={ref}
-            className="h-[157vh] md:h-[270vh] pt-40 pb-10 overflow-hidden antialiased relative flex flex-col self-auto [perspective:1000px] [transform-style:preserve-3d]" id="home"
+            className="h-fit pt-40 pb-10 overflow-hidden antialiased relative flex flex-col self-auto [perspective:1000px] [transform-style:preserve-3d]" id="home"
         >
             <Header />
             <motion.div
@@ -89,7 +105,7 @@ export const HeroParallax = ({
                     translateY,
                     opacity,
                 }}
-                className=""
+                className="mb-4"
             >
                 <motion.div className="flex flex-row-reverse space-x-reverse space-x-10 md:space-x-20 mb-10 md:mb-20">
                     {firstRow.map((product) => (
@@ -128,7 +144,7 @@ export const HeroParallax = ({
                     ))}
                 </motion.div>) : ""}
             </motion.div>
-            <div className="z-10 absolute bottom-0 right-[33%] sm:right-[46%]">
+            <div className="z-10 absolute bottom-0 right-[33%] sm:right-[40%] md:right-[42%] lg:right-[44%] xl:right-[46%]">
                 <Drawer>
                     <DrawerTrigger>
                         <div className="p-[3px] relative">
@@ -221,7 +237,7 @@ export const ProductCard = ({
                 y: -20,
             }}
             key={product.title}
-            className="group/product h-32 w-32 md:h-72 md:w-72 relative flex-shrink-0"
+            className="group/product h-32 w-32 sm:h-44 sm:w-44 md:h-48 md:w-48 lg:h-60 lg:w-60 xl:h-72 xl:w-72 relative flex-shrink-0"
         >
             <Image
                 src={product.thumbnail}
