@@ -16,7 +16,7 @@ export default function Timeline() {
             </h2>
           </div>
           {TimelineData.map((timeline) => (
-            <div className="my-5 w-full" key={timeline.title}>
+            <div className="my-5 w-full md:w-fit" key={timeline.title}>
               <BackgroundGradient className="rounded-[22px] w-xl p-5 px-7 sm:p-10 bg-white dark:bg-zinc-900 flex flex-col shadow-lg">
                 <p className="text-lg sm:text-xl font-semibold text-gray-800 dark:text-gray-100">
                   {timeline.title}
