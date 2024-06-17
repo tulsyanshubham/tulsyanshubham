@@ -22,7 +22,7 @@ export const BackgroundGradient = ({
     },
   };
   return (
-    <div className={cn("relative p-[3px] group w-full sm:w-[40vw]", containerClassName)}>
+    <div className={cn("relative p-[3px] group w-full md:w-[40vw]", containerClassName)}>
       <motion.div
         variants={animate ? variants : undefined}
         initial={animate ? "initial" : undefined}

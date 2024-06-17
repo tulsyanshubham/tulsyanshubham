@@ -39,7 +39,7 @@ export const HeroParallax = ({
     });
     const [innerWidth, setInnerWidth] = useState(0);
     useEffect(() => {
-        console.log(window.innerWidth)
+        // console.log(window.innerWidth) //debug
         setInnerWidth(window.innerWidth);
     }, []);
     const firstRow = innerWidth > 700 ? products.slice(0, 5) : products.slice(0, 4);
