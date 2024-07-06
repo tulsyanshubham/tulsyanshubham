@@ -12,7 +12,7 @@ export default function Timeline() {
           <div className='mb-10'>
             <h2 className="text-4xl sm:text-5xl font-bold text-center">Timeline</h2>
             <h2 className="text-base md:text-xl text-teal-600 font-semibold tracking-wide mt-2 text-center">
-              A selection of projects I have worked on recently and in the past.
+              An overview of my Journey
             </h2>
           </div>
           {TimelineData.map((timeline) => (
