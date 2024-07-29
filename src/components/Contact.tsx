@@ -24,6 +24,7 @@ export function Contact() {
     const [isSending, setIsSending] = React.useState(false);
     const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
+        if (isSending) return;
         setIsSending(true);
         const response = await axios.post('/api/send-message', formData);
         console.log(response.data)
