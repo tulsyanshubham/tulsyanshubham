@@ -2,14 +2,14 @@ export const TimelineData = [
     {
         title:"Schooling",
         place:"SL DAV Public School, Khagaria",
-        yoc:2015,
+        yoc:2019,
         score: 89.6
     },
     {
         title:"Pre-University",
         place:"New Holy Ganges Public School, Khagaria",
         course:"Science - PCM",
-        yoc:2017,
+        yoc:2021,
         score: 70
     },
     {

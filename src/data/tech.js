@@ -1,70 +1,73 @@
+import exp from 'constants';
+import { css, expo, cpp, typescript, vite, github, mysql, react, mongodb, html, js, node, next, tailwind, postman, express, git } from '../assets/tech_logo/index.js';
+
 export const Tech = [
   {
     title: "CSS",
-    thumbnail: "https://i.ibb.co/3Rd122q/css.png",
+    thumbnail: css,
   },
   {
     title: "Expo",
-    thumbnail: "https://i.ibb.co/c8FbM8Y/expo.png",
+    thumbnail: expo,
   },
   {
     title: "C++",
-    thumbnail: "https://i.ibb.co/R7QZfCt/c.png",
+    thumbnail: cpp,
   },
   {
     title: "Typescript",
-    thumbnail: "https://i.ibb.co/G9vx6Cs/Typescript.png",
+    thumbnail: typescript,
   },
   {
     title: "Vite.js",
-    thumbnail: "https://i.ibb.co/5xVm5ST/vite.png",
+    thumbnail: vite,
   },
   {
     title: "Github",
-    thumbnail: "https://i.ibb.co/HBLrjTV/github.png",
+    thumbnail: github,
   },
   {
     title: "MySQL",
-    thumbnail: "https://i.ibb.co/QbzQkh4/mysql.png",
+    thumbnail: mysql,
   },
   {
     title: "React",
-    thumbnail: "https://i.ibb.co/Yj3LxhY/react.png",
+    thumbnail: react,
   },
   {
     title: "MongoDB",
-    thumbnail: "https://i.ibb.co/Hd02yKq/mongodb.png",
+    thumbnail: mongodb,
   },
   {
     title: "HTML",
-    thumbnail: "https://i.ibb.co/wRh2TdD/html.png",
+    thumbnail: html,
   },
   {
     title: "JS",
-    thumbnail: "https://i.ibb.co/SwtxMtc/js.png",
+    thumbnail: js,
   },
   {
     title: "Node.js",
-    thumbnail: "https://i.ibb.co/RPsFx9B/node.png",
+    thumbnail: node,
   },
   {
     title: "Next.js",
-    thumbnail: "https://i.ibb.co/bBxBQTD/next.png",
+    thumbnail: next,
   },
   {
     title: "Tailwind CSS",
-    thumbnail: "https://i.ibb.co/J20zvHT/tailwind.png",
+    thumbnail: tailwind,
   },
   {
     title: "Postman",
-    thumbnail: "https://i.ibb.co/JQtjQvz/postman.webp",
+    thumbnail: postman,
   },
   {
     title: "Expres",
-    thumbnail: "https://i.ibb.co/SwQC1vF/express.png",
+    thumbnail: express,
   },
   // {
   //   title: "Git",
-  //   thumbnail: "https://i.ibb.co/jD6vyDC/git.png",
+  //   thumbnail: git,
   // },
 ];
