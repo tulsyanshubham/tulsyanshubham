@@ -7,7 +7,7 @@ import {
     useSpring,
     MotionValue,
 } from "framer-motion";
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 import { FlipWords } from "./flip-words";
 import {
     Drawer,
@@ -28,8 +28,8 @@ export const HeroParallax = ({
     products,
 }: {
     products: {
-        title: string;
-        thumbnail: string;
+        title: string,
+        thumbnail: StaticImageData
     }[];
 }) => {
     const ref = React.useRef(null);
@@ -224,7 +224,7 @@ export const ProductCard = ({
 }: {
     product: {
         title: string;
-        thumbnail: string;
+        thumbnail: StaticImageData;
     };
     translate: MotionValue<number>;
 }) => {
