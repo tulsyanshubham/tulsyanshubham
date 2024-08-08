@@ -17,7 +17,7 @@ export const ProjectsArr = [
         title: "Aora",
         description: "A mobile application designed for seamless sharing of videos.",
         imageUrl: aora,
-        url: "https://expo.dev/accounts/tulsyanshubham/projects/aora/builds/f27ca103-c021-4d4d-8cce-b6a671f71e48"
+        url: "https://expo.dev/accounts/tulsyanshubham/projects/aora/builds/31c10e24-5d85-4952-a476-041733a5dd22"
     },
     {
         title: "Music Academy",
