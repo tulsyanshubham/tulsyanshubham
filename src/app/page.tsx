@@ -1,4 +1,5 @@
 'use client';
+
 import { Contact } from '@/components/Contact';
 import Footer from '@/components/Footer';
 import { Home } from '@/components/Home';
@@ -27,11 +28,11 @@ export default function Page() {
 
   return (
     <div className=" w-full dark:bg-black bg-white  dark:bg-dot-white/[0.2] bg-dot-black/[0.2] relative">
-      <Home />
+      {/* <Home /> */}
       <Projects />
-      <Timeline />
-      <Contact />
-      <Footer />
+      {/* <Timeline /> */}
+      {/* <Contact /> */}
+      {/* <Footer /> */}
     </div>
   );
 }
