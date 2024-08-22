@@ -14,6 +14,7 @@ import next from "./next.png";
 import tailwind from "./tailwind.png";
 import postman from "./postman.png";
 import express from "./express.png";
+import django from "./django.png";
 import git from "./git.png";
 
-export { css, expo, cpp, typescript, vite, github, mysql, react, mongodb, html, js, node, next, tailwind, postman, express, git };
+export { css, expo, cpp, typescript, vite, github, mysql, react, mongodb, html, js, node, next, tailwind, postman, express, django, git };

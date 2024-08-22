@@ -1,5 +1,5 @@
 import exp from 'constants';
-import { css, expo, cpp, typescript, vite, github, mysql, react, mongodb, html, js, node, next, tailwind, postman, express, git } from '../assets/tech_logo/index.js';
+import { css, expo, cpp, typescript, vite, github, mysql, react, mongodb, html, js, node, next, tailwind, postman, express, django, git } from '../assets/tech_logo/index.js';
 
 export const Tech = [
   {
@@ -59,12 +59,16 @@ export const Tech = [
     thumbnail: tailwind,
   },
   {
-    title: "Postman",
-    thumbnail: postman,
+    title: "Django",
+    thumbnail: django,
   },
   {
     title: "Expres",
     thumbnail: express,
+  },
+  {
+    title: "Postman",
+    thumbnail: postman,
   },
   // {
   //   title: "Git",
