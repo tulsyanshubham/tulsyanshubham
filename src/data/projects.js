@@ -64,12 +64,12 @@ export const ProjectsArr = [
         url: "https://tulsyanshubham.github.io/Tic-Tac-Toe/",
         content: "Tic Tac Toe is a web-based version of the classic game that has been enjoyed by generations. This project is built using HTML, CSS, and JavaScript, and features a simple yet engaging user interface that allows two players to compete against each other. The game is designed to be responsive, ensuring that it can be played on any device, from desktops to mobile phones. Tic Tac Toe also includes basic AI for single-player mode, where users can challenge the computer. This project serves as a fun and nostalgic reminder of traditional games while showcasing the ability to create interactive web applications. It's perfect for quick gaming sessions and demonstrates an understanding of basic game logic and front-end development."
     },
-    {
-        title: "Snake Game",
-        description: "A fun and addictive Snake game to enjoy in your browser.",
-        image_data: snake_game,
-        url: "https://tulsyanshubham.github.io/Snake-Game/",
-        content: "Snake Game is a modern take on the classic arcade game that has captivated players for decades. This version is built using HTML, CSS, and JavaScript, bringing the nostalgic gameplay to the web. The game features a simple interface where players control a snake, guiding it to eat food while avoiding collisions with the walls or its own tail. With each piece of food consumed, the snake grows longer, making the game progressively more challenging. The game is designed to be responsive, ensuring that it can be played seamlessly on both desktop and mobile devices. The smooth animations and intuitive controls make it an enjoyable experience for players of all ages. This project showcases an understanding of basic game development concepts and the ability to create engaging, interactive web applications. It's perfect for casual gaming sessions and highlights the fun and addictive nature of simple game mechanics."
-    }
+    // {
+    //     title: "Snake Game",
+    //     description: "A fun and addictive Snake game to enjoy in your browser.",
+    //     image_data: snake_game,
+    //     url: "https://tulsyanshubham.github.io/Snake-Game/",
+    //     content: "Snake Game is a modern take on the classic arcade game that has captivated players for decades. This version is built using HTML, CSS, and JavaScript, bringing the nostalgic gameplay to the web. The game features a simple interface where players control a snake, guiding it to eat food while avoiding collisions with the walls or its own tail. With each piece of food consumed, the snake grows longer, making the game progressively more challenging. The game is designed to be responsive, ensuring that it can be played seamlessly on both desktop and mobile devices. The smooth animations and intuitive controls make it an enjoyable experience for players of all ages. This project showcases an understanding of basic game development concepts and the ability to create engaging, interactive web applications. It's perfect for casual gaming sessions and highlights the fun and addictive nature of simple game mechanics."
+    // }
 ]
 
