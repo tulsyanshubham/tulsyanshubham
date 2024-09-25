@@ -27,7 +27,7 @@ export const Icons = [
     // },
     {
         title: "CV",
-        url: "https://drive.google.com/file/d/1P1qD4L2JZ2z-nRuRSKIOCHGfOCVm8M3U/view?usp=sharing",
+        url: "https://drive.google.com/file/d/1j8mtbmB237aUouKUoijQO69QWUgbFDF4/view?usp=sharing",
         thumbnail: cv,
     },
 ];
