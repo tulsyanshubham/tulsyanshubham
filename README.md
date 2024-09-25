@@ -13,7 +13,7 @@
 ###
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=tulsyanshubham&theme=dracula&hide_border=true&count_private=true" alt="tulsyanshubham" height="160" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=tulsyanshubham&theme=dracula&hide_border=true&count_private=false" alt="tulsyanshubham" height="160" />
   <img src="https://github-contributor-stats.vercel.app/api?username=tulsyanshubham&limit=5&theme=dracula&combine_all_yearly_contributions=true&hide_border=true&count_private=true" alt="tulsyanshubham" height="160" />
 </p>
 
