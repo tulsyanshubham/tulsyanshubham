@@ -4,8 +4,8 @@
 ###
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=tulsyanshubham&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=false&count_private=false&disable_animations=false&theme=dracula&locale=en&hide_border=true" height="150" alt="stats graph"  />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=tulsyanshubham&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=true" height="150" alt="languages graph"  />
+  <img src="https://github-readme-stats.vercel.app/api?username=tulsyanshubham&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=false&count_private=false&disable_animations=false&theme=dracula&locale=en&hide_border=true" height="150" alt=""  />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=tulsyanshubham&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=true" height="150" alt=""  />
 </div>
 
 ###
@@ -13,15 +13,15 @@
 ###
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=tulsyanshubham&theme=dracula&hide_border=true&count_private=false" alt="tulsyanshubham" height="160" />
-  <img src="https://github-contributor-stats.vercel.app/api?username=tulsyanshubham&limit=5&theme=dracula&combine_all_yearly_contributions=true&hide_border=true&count_private=true" alt="tulsyanshubham" height="160" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=tulsyanshubham&theme=dracula&hide_border=true&count_private=false" alt="" height="160" />
+  <img src="https://github-contributor-stats.vercel.app/api?username=tulsyanshubham&limit=5&theme=dracula&combine_all_yearly_contributions=true&hide_border=true&count_private=true" alt="" height="160" />
 </p>
 
 ###
 
 ###
 
-<p align="center"> <img src="https://github-profile-trophy.vercel.app/?username=tulsyanshubham&theme=dracula&no-frame=true&no-bg=false&margin-w=4" alt="tulsyanshubham" /> </p>
+<p align="center"> <img src="https://github-profile-trophy.vercel.app/?username=tulsyanshubham&theme=dracula&no-frame=true&no-bg=false&margin-w=4" alt="" /> </p>
 
 ###
 
@@ -39,7 +39,7 @@
 
 <div align="center">
   <a href="mailto:tulsyanshubham3639@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-%23D14836.svg?logo=gmail&logoColor=white" height="35" alt="gmail logo"  />
+    <img src="https://img.shields.io/badge/Gmail-%23D14836.svg?logo=gmail&logoColor=white" height="35" alt="gmail"  />
   </a>
   <a href="https://www.linkedin.com/in/shubham-tulsyan-a5750a288/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white" height="35" alt="linkedin"  />
