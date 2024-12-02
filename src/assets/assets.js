@@ -27,7 +27,7 @@ export const Icons = [
     // },
     {
         title: "CV",
-        url: "https://www.canva.com/design/DAF8r_2Kc2w/BDykhfyDS_Xg-xXPL-Ak2A/edit?utm_content=DAF8r_2Kc2w&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
+        url: "https://www.canva.com/design/DAF8r_2Kc2w/8NHJV5V811rwz2kT9OqhJA/view?utm_content=DAF8r_2Kc2w&utm_campaign=designshare&utm_medium=link&utm_source=editor",
         thumbnail: cv,
     },
 ];

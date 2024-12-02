@@ -33,8 +33,8 @@ export default function Projects() {
                     A selection of projects I have worked on recently and in the past.
                 </h2>
             </div>
-            { innerWidth > 640 ? <Projects_PC data={ProjectsArr} /> :
-            <Projects_Phone data={ProjectsArr} />}
+            {innerWidth > 640 ? <Projects_PC data={ProjectsArr} /> :
+                <Projects_Phone data={ProjectsArr} />}
         </div>
     )
 }
